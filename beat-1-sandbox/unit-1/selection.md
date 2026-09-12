@@ -6,8 +6,8 @@ Record of the issue carried into Unit 2, and of the evaluation runs that produce
 `eval-run.txt`. This file is graded at the path above; a copy kept anywhere else in
 the repository is not read.
 
-Complete every `###` section. Each is graded on its own; content placed under the
-wrong heading is not graded.
+Complete every labelled field below. Each is graded on its own; content placed under the
+wrong label is not graded.
 
 ---
 
