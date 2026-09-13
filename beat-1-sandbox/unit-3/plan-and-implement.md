@@ -1,6 +1,6 @@
 # Unit 3 — Plan and Build
 
-Path: `beat-1-sandbox/unit-3/plan-and-build.md`
+Path: `beat-1-sandbox/unit-3/plan-and-implement.md`
 
 Record of your plan, the branch you built it on, and the evaluation runs that produced
 `eval-run.txt`. This file is graded at the path above; a copy kept anywhere else in the
