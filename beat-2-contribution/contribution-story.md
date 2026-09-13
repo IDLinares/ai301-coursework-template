@@ -87,7 +87,9 @@ was reject and you chose it anyway, say so here and say why; choosing
 against your own tool silently is what loses points. Close with an
 honest read of the tool itself: where the scout fell short on a real
 wild search and what you changed or would change, or what convinced
-you it held up.]
+you it held up. **Record the link to your claim comment in this section too.**
+Not claimed yet? Write `claim pending` and today's date where the link goes,
+and add the link the moment your claim lands.]
 
 **Toolkit**
 
