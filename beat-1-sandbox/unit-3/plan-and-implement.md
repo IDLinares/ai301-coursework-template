@@ -24,7 +24,8 @@ yours off theirs.]
 **Plan comment**
 
 [Link to the comment where you posted your plan on the issue. Use the comment's own
-permalink.]
+permalink. **Then paste the text of that comment underneath the link** — the pasted text is
+what this field is graded on, so copy across what you actually posted.]
 
 ---
 

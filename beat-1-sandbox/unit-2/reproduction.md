@@ -25,12 +25,15 @@ comments upstream are identified by this name.]
 **Claim comment**
 
 [Link to the comment where you claimed the issue. Use the comment's own permalink, not the
-issue page on its own.]
+issue page on its own. **Then paste the text of that comment underneath the link** — the
+pasted text is what this field is graded on, so copy across what you actually posted.]
 
 **Reproduction comment**
 
 [Link to the comment where you posted your reproduction. It must record the environment
-(OS, relevant versions, code state), steps a stranger could follow, and what you observed.]
+(OS, relevant versions, code state), steps a stranger could follow, and what you observed.
+**Then paste the text of that comment underneath the link** — the pasted text is what this
+field is graded on, so copy across what you actually posted.]
 
 ## Eval iterations
 
