@@ -54,12 +54,12 @@ Format each rule like this:
 - Wrong: "Omg I love this project! Can't wait to contribute!"
 - Right: "I will be picking up this issue as my first contribution to this project."
 
-## Rule: Do not ask questions about the project already answered
+### Rule: Do not ask questions about the project already answered
 
 - Wrong: "What is the proper way to contribute to this project?"
 - Right: "I will follow the contribution guidelines."
 
-## Rule: Speak with certainty
+### Rule: Speak with certainty
 
 - Wrong: "I don't think I can reproduce the issue properly."
 - Right: "I could not reproduce the issue on my OS and tool versions."
@@ -71,7 +71,7 @@ shortcuts you know you reach for when tired. The skill quotes this
 list back at you when a draft crosses it. -->
 
 - Do not give specific dates or times.
-- Do not write excessively enthusiastic or excited (many exclamation marks).
+- Do not write in an excessively enthusiastic or excited tone (many exclamation marks).
 - Do not use em dashes.
 - Do not use first person plural as a contributor to a project.
 - Do not open with a compliment about the project.

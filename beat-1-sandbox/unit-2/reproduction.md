@@ -21,7 +21,9 @@ label is not graded.
 
 **[Claim comment](https://github.com/codepath/pathreview-ai301-fa26-s3/issues/72#issuecomment-5850958712)**
 
-Hello, I would like to work on this issue, #72, as a first contribution to the pathreview project. I will start by forking the repo and setting it up on my local machine, recording my OS and tool versions, following the docs/SETUP.md steps. Then, I will reproduce the issue on my machine and record the steps I took to do so.
+Hello, I would like to work on this issue, #72, as a first contribution to the pathreview project. The issue describes an incorrect behavior of the `verify_password` function in the `core/security.py` module. Verification of a password against a malformed hash is current returning `UnknownHashError` from passlib instead of failing closed and returning `False`.
+
+I will start by forking the repo and setting it up on my local machine, recording my OS and tool versions, following the docs/SETUP.md steps. Then, I will run the covering test, `test_verify_with_wrong_hash_format`, to make sure I can reproduce the issue on my machine and record the steps I took to do so.
 
 **[Reproduction comment](https://github.com/codepath/pathreview-ai301-fa26-s3/issues/72#issuecomment-5850961770)**
 
@@ -105,7 +107,7 @@ Rubric decided: PASS
 
 Gold label: REJECT
 
-Reasoning: My rubric did not have a specific section for AI discolsure or claim content. It only addressed following the repo's template and conventions, so it passed when it should have rejected.
+Reasoning: My rubric did not have a specific section for AI disclosure or claim content. It only addressed following the repo's template and conventions, so it passed when it should have rejected.
 
 **Check rationale**
 
@@ -117,7 +119,7 @@ Why: The repo conventions need to address not just the structure of the reproduc
 
 **Trade-offs**
 
-My rubric has actual vs expected as a preferred check, even though it is a good standard for a standard reproduction report. This shows that the contributor understands what the issue is doing and what the app is intended to do, but not all reports have this exact setup and I felt it was more important to shown that they were able to reproduce the failure the issue descirbes as opposed to explicity stating what it the intended behavior is.
+My rubric has actual vs expected as a preferred check, even though it is a good standard for a standard reproduction report. This shows that the contributor understands what the issue is doing and what the app is intended to do, but not all reports have this exact setup. I felt it was more important the contributor shows they were able to reproduce the failure the issue describes as opposed to explicitly stating what the intended behavior is.
 
 Related paths: `eval-run.txt` in this directory; your skill's files in
 `tools/repro-check/`.
