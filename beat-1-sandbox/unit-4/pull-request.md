@@ -13,17 +13,9 @@ label is not graded.
 
 ## Your pull request
 
-**Pull request**
+**[Pull request](https://github.com/codepath/pathreview-ai301-fa26-s3/pull/255)**
 
-[Link to the pull request you opened. It must be the pull request's own page on the Path
-Review repo, not your fork's branch page.]
-
-**Branch**
-
-[The name of the branch the pull request comes from, exactly as it appears in your fork.
-The naming shape is a type prefix, then the issue number, then a short description. **The
-issue number in the branch name must be the number of the issue the pull request fixes** —
-a name carrying any other number does not satisfy this field.]
+**fix/72-verify-password-error**
 
 ## Eval iterations
 
@@ -32,21 +24,25 @@ fields.
 
 **Run history**
 
-[The agreement score of each run you did, in order. A single run is a complete answer if
-only one run occurred. **The last score in your list must match the agreement line in the
-`eval-run.txt` you committed** — that file is the record of your final run.]
+Run 1:
+categories: clear-accept 7/7 not-tested 4/4 silent-drift 4/4 standards-wall 2/2 unreviewable 3/3
+agreement: 20/20 scored items (bar: 18/20: PASS)
 
 **Package analysis**
 
-[Pick one scored package (`pkg-01` through `pkg-20` — the four `calib-` packages are never
-scored). Name it by id, say what your rubric decided and what the gold label said, and
-explain why your rubric read it that way.]
+Package: pkg-06
+
+Rubric decided: REJECT
+
+Gold label: REJECT
+
+Reasoning: My rubric failed it because it had changes in the diff that were not mentioned in the plan so it failed on `silent-drift`.
 
 **Check rationale**
 
-[Quote one check from the `rubric.md` you uploaded to `tools/pr-precheck/`, exactly as it reads now.
-Then say why it reads that way — what you revised to get there, or what you rejected in
-favour of it.]
+Rubric check: `silent-drift` - "The diff's changed files read against the plan's stated scope and any deviation notes in plan. Passes if every file in the diff is in scope either in the plan's changes or in the deviation notes. Any changes not mentioned in the plan cannot pass."
+
+Why: This check ensure that all changes in the diff are in scope of the plan. Initially, I only mentioned the plan's stated scope, but I needed to include the deviation notes as well since there are times when not all necessary changes are originally in scope of the plan but get added later. In that case, the check should still pass as long as the plan states all deviations explicitly.
 
 **Trade-offs**
 
@@ -54,6 +50,8 @@ favour of it.]
 result it changes, a canary you re-ran with `--only`, a case you accept it will miss, or a
 stated reason nothing changed elsewhere. "Nothing changed, and here is how I know" earns
 the point in full when the reason follows.]
+
+My rubric correctly classified all 20 evalulation packages on first complete run through, so I didn't have to make any changes or trade-offs to reach the evaluation threshold.
 
 ---
 
