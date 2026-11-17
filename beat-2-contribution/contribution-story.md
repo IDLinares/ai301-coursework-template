@@ -122,11 +122,6 @@ This bug affects both input fields involved in Creating a playlist. They can bot
 
 **Environment Setup**
 
-[What a stranger would need to stand this up: your operating system,
-the relevant versions (language, runtime, package manager, the project
-itself), and how you set the project up. Then the challenges you faced
-and how you solved them, or that none came up.]
-
 For my specific setup, I am running Windows 11 10.0.26200 (x64) and ran all commands in VScode using Windows Git Bash. I forked the repo and cloned my fork to my local machine.
 I ran the windows installer of the app to have it on my computer: `winget install spotatui` so that I had every source (Local Files, Subsonic, Internet Radio, YouTube, Qobuz, and Apple Music on macOS), the MCP server, the AI DJ and the Soloist engine.
 Then, to prepare to actually reproduce the issue, I had to install rust from [rustup](https://rustup.rs/). For my specific bug, I didn't need the desktop app and the system packages were included with the winget install.
@@ -437,7 +432,7 @@ Changes in `src/tui/ui/create_playlist.rs`:
 - [10/31/2026]: CodeRabbit agreed and said a follow-up issue should be created to address that issue at the handler-level. No changes were needed in my PR.
 - [10/31/2026]: Maintainer asked for an update to my two tests to assert an exact cursor x instead of a range as well as to open a separate issue for the bug that was discovered, not to include that fix in my PR.
 - [11/03/2026]: Updated my PR with the updated tests as requested.
-- [11/04/2026]: Maintainer approved my PR and merged into codebase as well as added me to the contributors page.
+- [11/04/2026]: Maintainer approved my PR and merged into codebase as well as added me to the contributors section of the README.
 
 **Status:** Merged
 
